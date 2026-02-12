@@ -3,8 +3,7 @@ App para atualizar DNS magicamente
 
 
 ## Pre-requisito
-
-cat > config.yml
+cat > conf.yml
 ```
 cloudflare:
   zone_id: "xxxx"
@@ -21,7 +20,9 @@ go build -o cloudflare-cli main.g
 ```
 
 ## uso
-$ ./cloudflare-cli update-dns
+no terminal
+```
+./cloudflare-cli update-dns
 ID                                  | NAME                
 ------------------------------------------------------------------
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    | bla.wvcardoso.dev.br
@@ -35,4 +36,4 @@ Meu IP agora: xx.xx.xx.xx
 DNS atualizado: xx.xx.xx.xx -> bla.wvcardoso.dev.br
 DNS atualizado: xx.xx.xx.xx -> bla.wvcardoso.dev.br
 DNS atualizado: xx.xx.xx.xx -> bla.wvcardoso.dev.br
-
+```
